@@ -40,6 +40,8 @@ nav.page-toc {
   position:fixed;
   right:66px;
   top: 84px;
+  bottom: 10px;
+  overflow-y: scroll;
   max-width:330px;
 }
 
@@ -59,7 +61,7 @@ nav.page-toc {
   }
 }
 
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1300px) {
   nav.page-toc {
     position:relative;
     position:static;
@@ -69,5 +71,12 @@ nav.page-toc {
     border-bottom: 1px dotted #c0c0c0;
     margin-bottom:20px;
     padding-bottom:20px;
+  }
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 480px){
+  nav.page-toc {
+    display:none !important;
   }
 }
