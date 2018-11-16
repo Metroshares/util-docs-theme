@@ -53,6 +53,29 @@ nav.page-toc {
     display: none !important;
 }
 
+/* nav */
+
+.book-summary nav > ul > li > a {
+    font-weight: bold;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    font-size: 9pt;
+    color: #999 !important;
+}
+
+.book-summary nav > ul > li.active > a {
+    color: #000 !important;
+}
+
+.book-summary nav > ul > li ul > li > a {
+  color:#888
+}
+
+.book-summary nav > ul > li > ul > li > a.active {
+  color:#000;
+}
+
+
 /* media query here */
 
 @media screen and (max-width: 1800px) {
