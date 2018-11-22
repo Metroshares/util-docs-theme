@@ -55,9 +55,15 @@ nav.page-toc {
 
 /* nav */
 
-.book-summary ul.summary li a, .book-summary ul.summary li span {
-    padding: 7px 17px;
+.book-summary ul.summary > li > a,
+  .book-summary ul.summary li span {
+    padding: 13px 17px;
 }
+
+.book-summary ul.summary > li > ul > li > a,
+  .book-summary ul.summary li span {
+    padding: 9px 17px;
+  }
 
 
 /* LVL 1 */
