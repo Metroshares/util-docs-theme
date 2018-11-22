@@ -70,6 +70,7 @@ nav.page-toc {
 
 .book-summary nav > ul.summary > li.active > a {
     color: #000 !important;
+    border:none !important;
 }
 
 /* LVL 2 */
@@ -106,7 +107,7 @@ nav.page-toc {
     width:100%;
     display:block;
     max-width:none;
-    border-bottom: 1px dotted #c0c0c0;
+    /* border-bottom: 1px dotted #c0c0c0; */
     margin-bottom:20px;
     padding-bottom:20px;
   }
