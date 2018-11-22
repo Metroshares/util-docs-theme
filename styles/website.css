@@ -62,10 +62,9 @@ nav.page-toc {
 
 /* LVL 1 */
 .book-summary nav > ul.summary > li > a {
-    font-weight: bold;
     text-transform: uppercase;
     font-size: 9pt;
-    color: #333;
+    color: #555;
 }
 
 .book-summary nav > ul.summary > li.active > a {
@@ -84,6 +83,7 @@ nav.page-toc {
   color:#000;
   text-decoration: none;
   font-weight: bold;
+  border:none !important;
 }
 
 
